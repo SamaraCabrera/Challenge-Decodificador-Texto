@@ -1,0 +1,283 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  /*background-color: #4a4b4b;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  */
+  position: absolute;
+  width: 577px;
+  height: 40px;
+  left: 240px;
+  top: 40px;  
+  background: #F3F5FC;  
+  color: #0A3871;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 150%;
+
+   
+}
+
+.main {
+  width: 80vw;
+  margin: auto;
+  display: flex;
+  justify-content: left;
+}
+
+.cuadroEncriptador{
+  position: absolute;
+  width: 400px;
+  height: 850px;
+  left: 1200px;
+  top: 40px;
+  text-align: center;
+  background: #FFFFFF;
+  box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+  border-radius: 32px;
+    
+}
+
+.text-input {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 16px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 32px;
+  font-style: normal;
+  text-align: center;
+  color: #495057;
+  position: left;
+  border: none;
+  width: 400px;
+  height: 300px;
+  left: 1200px;
+  top: 40px;
+  border-radius: 32px;
+  
+}
+
+.divSub{
+  /* Auto layout */
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 8px;
+
+  position: absolute;
+  left: 240px;
+
+}
+.circuloExclamacion{
+  width: 16px;
+  height: 16px;
+  
+  
+  /* Inside auto layout */
+  
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.textoinfo{
+  width: 205px;
+  height: 18px;
+  
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 150%;
+  /* identical to box height, or 18px */
+
+  /* Gray/gray-400 */
+  
+  color: #495057;
+  
+  opacity: 0.8;
+  
+  /* Inside auto layout */
+  
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  
+}
+
+.sup{
+  position: absolute;
+  left: 36.67%;
+  right: 14.43%;
+  top: 0%;
+  bottom: 0%;
+  
+}
+.titulo {
+  padding: 20px;
+  width: 40vw;
+  margin: auto;
+  color: #ffffff;
+  margin-top: 50px;
+
+}
+
+.lab {
+  color: rgb(8, 2, 2);
+ 
+}
+
+.texto{
+  width: 336px;
+  height: 58px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 120%;
+  color: #343A40;
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+}
+
+.box {
+  padding: 10px;
+  margin: 0 10px 0 10px;
+  background-color: #FFFFFF;
+  width: 400px;
+  height: 750px;
+  left: 1000px;
+  top: 35px;
+ 
+}
+
+.botonEncriptar {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 24px;
+  gap: 8px;
+
+  width: 328px;
+  height: 67px;
+  background: #0A3871;
+  border-radius: 24px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  color: #FFFFFF;
+
+}
+
+.botonDesencriptar{
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 24px;
+  gap: 8px;
+
+  width: 328px;
+  height: 67px;
+  background: #D8DFE8;
+  color: #0A3871;
+  border: 1px solid #0A3871;
+  border-radius: 24px;
+
+/* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.division{
+  /* Frame 3 */
+/* Auto layout */
+
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 24px;
+
+  position: absolute;
+  width: 680px;
+  height: 67px;
+  left: 220px;
+  top: 780px;
+}
+
+.textoInstructivo{
+  position: absolute;
+  width: 577px;
+  height: 48px;
+  left: 240px;
+  top: 168px;
+  border: none;
+  background-color: #F3F5FC;
+  
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 150%;
+  /* identical to box height, or 48px */
+  
+  /* Dark blue/dark-blue-300 */
+  
+  color: #0A3871;
+}
+
+.btn{
+  /* Button */
+  width: 336px;
+  height: 58px;
+  border-radius: 0.5em;
+  left: 1000px;
+  top: 40px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  background: #FFFFFF;
+
+/* Dark blue/dark-blue-300 */
+
+  color: #0A3871;
+
+
+/* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 1;
+}
+footer {
+  text-align: center;  
+  width: 100%;
+  height: 8%;
+  bottom: 0;
+  position:fixed;
+ 
+}
+.pie{
+  font-family: 'Lucida Sans Regular';
+  font: size 16px;
+  color: rgb(150, 44, 99);
+  padding: 1em;
+}
